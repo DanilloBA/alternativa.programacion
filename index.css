@@ -5,7 +5,7 @@ html {
   box-sizing: inherit;
 }
 
-.orden-0{font-family: 'DM Sans', sans-serif;}
+.orden-0{display: flex;width: auto;}
 
 .formato-1{background-image: url(asset/16000.png);justify-content: center;align-items: center;display: flex;flex-direction: column;flex-wrap: wrap;background-repeat: no-repeat;
   ;max-width: 100%;width: 1280px;height: 400px;background-size: cover;}
