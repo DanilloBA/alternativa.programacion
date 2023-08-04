@@ -6,7 +6,7 @@ html {
 }
 
 .orden-0{width:1280px; }
- @media(max-width:960px) {.orden-0{width: auto}
+ @media(max-width:960px) {.orden-0{width: auto;box-sizing: border-box;}
   
 }
 
