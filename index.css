@@ -1,9 +1,8 @@
-*{
-  box-sizing: border-box; width: auto;justify-content: center;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
-
-.orden-0{width:1280px; }
+.orden-0{ }
  @media(max-width:760px) {.orden-0{width: auto;flex: none;}
   
 }
