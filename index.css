@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-.orden-0{ }
- @media(max-width:760px) {.orden-0{width: auto;flex: none;}
+.orden-0{margin-left: auto;
+    margin-right: auto; }
+ @media(max-width:770px) {.orden-0{width: auto;}
   
 }
 
@@ -14,7 +15,7 @@
 
 .formato-0{align-items: center;}
 
-.orden{width: 380px;height: 160px;}
+.orden{width: 380px;height: 180px;}
 
 .formato-2{background-color: blueviolet;color: rgb(249, 247, 247);margin: 0%;color: rgb(255, 255, 255);}
 
