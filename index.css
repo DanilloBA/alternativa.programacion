@@ -1,10 +1,10 @@
 *{
-  box-sizing: border-box; width: auto;
+  box-sizing: border-box; width: auto;justify-content: center;
 }
 
 
 .orden-0{width:1280px; }
- @media(max-width:570px) {.orden-0{width: auto;}
+ @media(max-width:760px) {.orden-0{width: auto;flex: none;}
   
 }
 
