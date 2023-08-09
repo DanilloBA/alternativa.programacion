@@ -1,12 +1,14 @@
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 
 .orden-0{
-    {margin-right: auto; block-size: auto;background-origin: padding-box;display: block;}
+    {margin-right: auto; block-size: auto;background-origin: padding-box;display: block;
+    }}
 
-}
+    .orden-0{background-image: url(asset/walpaper\ -3.jpg);background-size: cover;}
 
 
 .formato-1{background-image: url(asset/16000.png);justify-content: center;align-items: center;display: flex;flex-direction: column;flex-wrap: wrap;background-repeat: no-repeat;
@@ -15,7 +17,7 @@
 
 .formato-0{align-items: center;}
 
-.orden{width: 390px;height: 190px;}
+.orden{width: 310px;height: 140px;}
 
 .formato-2{background-color: blueviolet;color: rgb(249, 247, 247);margin: 0%;color: rgb(255, 255, 255);}
 
@@ -115,4 +117,4 @@ flex-direction: column;width: auto; background-color: rgb(70, 252, 115);color: r
 
 .formato-25{display: flex;align-items: center;justify-content: center;height: 100px;background-color: rgb(79, 240, 20);text-align: center;}
 
-.formato-26{display: flex;align-items: center;justify-content: center;height: 100px;background-color: rgb(208, 177, 19);text-align: center;}
+.formato-26{display: flex;align-items: center;justify-content: center;height: 100px; }
