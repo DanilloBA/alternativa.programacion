@@ -10,7 +10,9 @@
 
     .orden-0{background-image: url(asset/walpaper\ -3.jpg);background-size: cover;}
 
-    .modo-1{width: 300px;}
+    .modo-1{width: 280px;}
+
+    .inicio-1{width: 300px;justify-content: center;}
 
 
 .formato-1{background-image: url(asset/16000.png);justify-content: center;align-items: center;display: flex;flex-direction: column;flex-wrap: wrap;background-repeat: no-repeat;
