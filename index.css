@@ -48,13 +48,13 @@ height: 450px;text-align: center;justify-content: center;margin-top: 20px;}
 
 .formato-4{display: flex; flex-direction:row;width: auto;justify-content:center;text-align:center; margin: 0.5em;}
 
-.formato-6{width: auto;height: 500px;display: flex;flex-direction: row;background-color: black;}
+.formato-6{width: auto;height: 500px;display: flex;flex-direction: row;background-color: black;flex-wrap: wrap;}
 
 
 
-.orden-7{width: 320px;height: 400px;margin-top:50px ;margin: 1.5em; flex-direction: row;align-items: center;display: flex;justify-content: center;}
+.orden-7{width: 400px;height: auto;margin-top:50px ;margin: 1.5em; flex-direction: row;align-items: center;display: flex;justify-content: center;margin: 0.8em;}
 
-.orden-8{width: 280px;height: 280px;}
+.orden-8{width: 180px;height: auto;}
 
 .orden-10{display: flex;flex-direction: row; width: auto;height: 500px;align-items: center;margin: 0.9em;justify-content: center;}
 
@@ -88,7 +88,7 @@ flex-direction: column;width: auto;color: rgb(255, 255, 255);}
 
 .formato-17{width: 310px ;align-items: center;justify-content: center;}
 
-.formato-19{text-align: center;width: 350px;margin-top: 20px;justify-content: center;}
+.formato-19{text-align: center;width: 350px;justify-content: center;}
 @media(max-width:960px){.formato-19{display: flex;width: 300px;justify-content: center;flex-direction: column;}}
 
 .orden-15{width: 1280px;}
@@ -123,7 +123,7 @@ flex-direction: column;width: auto;color: rgb(255, 255, 255);}
 
 .formato-25{display: flex;align-items: center;justify-content: center;height: 100px;background-color: rgb(79, 240, 20);text-align: center;}
 
-.formato-26{display: flex;align-items: center;justify-content: center;height: 100px;background-color: rgb(113, 255, 198); }
+.formato-26{display: flex;align-items: center;justify-content: center;height: 100px;background-color: rgb(113, 255, 198);text-align: center;}
 
 .formato-27{display: flex;flex-direction: row; width:auto;height: 500px;justify-content: center;flex-wrap: wrap; height: auto}
 
@@ -134,3 +134,5 @@ flex-direction: column;width: auto;color: rgb(255, 255, 255);}
 .formato-30{display: flex;align-items: center;justify-content: center;height: 70px;background-color: rgb(0, 0, 0); }
 
 .orden-19{width: 280px;display: flex;flex-direction: row;}
+
+.orden-20{width: 200px;display: flex;flex-direction: row;}
