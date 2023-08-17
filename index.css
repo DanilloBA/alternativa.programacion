@@ -5,7 +5,7 @@
 
 
 .orden-0{
-    {margin-right: auto; block-size: auto;background-origin: padding-box;display: block;
+    {margin-right: auto;background-origin: padding-box;display:flex;
     }}
 
     .orden-0{background-image: url(asset/walpaper\ -3.jpg);background-size: cover;}
@@ -16,7 +16,8 @@
 
 
 .formato-1{background-image: url(asset/16000.png);justify-content: center;align-items: center;display: flex;flex-direction: column;flex-wrap: wrap;background-repeat: no-repeat;
-  ;max-width: 100%;width: 1280px;height: 400px;background-size: cover;}
+  ;width:auto;height: 400px;background-size: cover;background-size: auto;background-size: 100%;}
+
 
 
 .formato-0{align-items: center;}
@@ -92,7 +93,7 @@ flex-direction: column;width: auto;color: rgb(255, 255, 255);}
 .formato-17{width: 310px ;align-items: center;justify-content: center;}
 
 .formato-19{text-align: center;width: 350px;justify-content: center;}
-@media(max-width:960px){.formato-19{display: flex;width: 300px;justify-content: center;flex-direction: column;}}
+@media(max-width:960px){.formato-19{display: flex;width: 300px;justify-content: center;flex-direction: column;align-items: center;}}
 
 .orden-15{width: 1280px;}
 
